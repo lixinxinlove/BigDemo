@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_dialog_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DialogActivity" />
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹出对话框" />
+
+    <Button
+        android:id="@+id/btn_normal_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通的Activity" />
+
+    <Button
+        android:id="@+id/btn_start_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动service" />
+
+    <Button
+        android:id="@+id/btn_stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止service" />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止服务" />
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务" />
+
+    <Button
+        android:id="@+id/btn_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解绑服务" />
+
+
+    <Button
+        android:id="@+id/btn_use_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用服务的方法" />
+
+
+
+</LinearLayout>
